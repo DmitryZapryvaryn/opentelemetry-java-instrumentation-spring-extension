@@ -17,7 +17,7 @@ To add the extension to the instrumentation agent:
 
      ```bash
      java -javaagent:path/to/opentelemetry-javaagent.jar \
-          -Dotel.javaagent.extensions=build/libs/opentelemetry-java-instrumentation-extension-demo-1.0-all.jar
+          -Dotel.javaagent.extensions=build/libs/opentelemetry-java-instrumentation-spring-extension-1.0-all.jar
           -jar myapp.jar
      ```
 ## Embed extensions in the OpenTelemetry Agent
